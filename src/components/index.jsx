@@ -9,21 +9,21 @@ import React, { useState, useEffect } from "react";
 
 const heroSlides = [
     {
-        image: "src/assets/bg.png",
+        image: "public/bg.png",
         heading: "LEVI'S® X PRINCESS MONONOKE",
         subheading: "Oh, this place is magical",
         description:
             "Awaken your inner forest spirit. Our collaboration with the epic animated feature film pays tribute to the enchanting world created by Studio Ghibli.",
     },
     {
-        image: "src/assets/Background.png",
+        image: "public/Background.png",
         heading: "NEW COLLECTION OUT NOW",
         subheading: "Discover the Drop",
         description:
             "From legendary stories to legendary style. Dive into our latest Studio Ghibli inspired release.",
     },
     {
-        image: "src/assets/Background.png",
+        image: "public/Background.png",
         heading: "",
         subheading: "",
         description:
@@ -92,7 +92,7 @@ const FreeShippingBanner = () => {
                     <div className="absolute inset-0 bg-black opacity-30 z-0" />
                     <div className="relative z-10 max-w-2xl mx-auto text-center px-6">
                         <img
-                            src="src/assets/Prototype13.png"
+                            src="public/Prototype13.png"
                             alt="Levi's x Princess Mononoke"
                             className="mx-auto w-auto mb-4"
                         />
@@ -197,7 +197,7 @@ const FreeShippingBanner = () => {
                 </div>
                 <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
                     <img
-                        src="src/assets/Belt.png"
+                        src="public/Belt.png"
                         alt="Levi's Men's Heritage Belt"
                         className="w-[500px] h-auto object-contain"
                     />
@@ -268,7 +268,7 @@ const FreeShippingBanner = () => {
                 </div>
                 <div className="w-full md:w-1/2">
                     <img
-                        src="src/assets/Image12.png"
+                        src="public/Image12.png"
                         alt="Plant-Based 501® Original Jeans"
                         className="w-full h-full object-cover"
                     />
@@ -277,7 +277,7 @@ const FreeShippingBanner = () => {
             <div className="flex px-6 md:px-20 flex-col md:flex-row w-full h-auto md:mt-0">
                 <div className="w-full md:w-1/2">
                     <img
-                        src="src/assets/Levi.png"
+                        src="public/Levi.png"
                         alt="Levi's Performance"
                         className="w-full h-full object-cover"
                     />
@@ -390,15 +390,15 @@ const FreeShippingBanner = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-6 py-8">
                     <div className="text-center">
-                        <img src="src/assets/Prototype6.png" alt="Shop New Arrivals" className="w-[286px] h-[300px] object-cover mx-auto" />
+                        <img src="public/Prototype6.png" alt="Shop New Arrivals" className="w-[286px] h-[300px] object-cover mx-auto" />
                         <p className="mt-2 text-sm font-medium uppercase">SHOP NEW ARRIVALS</p>
                     </div>
                     <div className="text-center">
-                        <img src="src/assets/Prototype7.png" alt="Shop Men's" className="w-[286px] h-[300px] object-cover mx-auto" />
+                        <img src="public/Prototype7.png" alt="Shop Men's" className="w-[286px] h-[300px] object-cover mx-auto" />
                         <p className="mt-2 text-sm font-medium uppercase">SHOP MEN'S</p>
                     </div>
                     <div className="text-center">
-                        <img src="src/assets/Prototype8.png" alt="Shop Women's" className="w-[286px] h-[300px] object-cover mx-auto" />
+                        <img src="public/Prototype8.png" alt="Shop Women's" className="w-[286px] h-[300px] object-cover mx-auto" />
                         <p className="mt-2 text-sm font-medium uppercase">SHOP WOMEN'S</p>
                     </div>
                 </div>
@@ -412,10 +412,10 @@ const FreeShippingBanner = () => {
                                 Tag @levis_sea on Instagram for a chance to be featured.
                             </p>
                             <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-6">
-                                <img src="src/assets/Prototype9.png" alt="Prototype9" className="w-32 h-32 object-cover" />
-                                <img src="src/assets/Prototype10.png" alt="Prototype10" className="w-32 h-32 object-cover" />
-                                <img src="src/assets/Prototype11.png" alt="Prototype11" className="w-32 h-32 object-cover" />
-                                <img src="src/assets/Prototype12.png" alt="Prototype12" className="w-32 h-32 object-cover" />
+                                <img src="public/Prototype9.png" alt="Prototype9" className="w-32 h-32 object-cover" />
+                                <img src="public/Prototype10.png" alt="Prototype10" className="w-32 h-32 object-cover" />
+                                <img src="public/Prototype11.png" alt="Prototype11" className="w-32 h-32 object-cover" />
+                                <img src="public/Prototype12.png" alt="Prototype12" className="w-32 h-32 object-cover" />
                             </div>
                         </div>
                         <div className="md:w-2/5 bg-white p-6 shadow-lg">
@@ -429,7 +429,7 @@ const FreeShippingBanner = () => {
                                 <span className="underline"> Terms & Conditions.</span>
                             </p>
                             <div className="flex justify-end mt-4">
-                                <img src="src/assets/Prototype14.png" alt="Payment Options" className="w-56" />
+                                <img src="public/Prototype14.png" alt="Payment Options" className="w-56" />
                             </div>
                         </div>
                     </div>
