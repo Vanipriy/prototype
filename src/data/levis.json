@@ -1,18 +1,18 @@
 [
     {
       "title": "HOODIES & SWEATSHIRTS",
-      "image": "public/Image1.png"
+      "image": "/Image1.png"
     },
     {
       "title": "JEANS",
-      "image": "public/Image2.png"
+      "image": "/image2.png"
     },
     {
       "title": "BACKPACKS",
-      "image": "public/Image3.png"
+      "image": "/Image3.png"
     },
     {
       "title": "TRUCKERS & SHERPAS",
-      "image": "public/Image4.png"
+      "image": "/Image4.png"
     }
   ]
